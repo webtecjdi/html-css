@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Francois One', sans-serif;
+    background-color: #000;
+}
+#banner{
+    width: 100%;
+    height: 150px;
+    background-image: url(../imgs/background.jpg);
+    background-position: center;
+    margin-bottom: 0.5%; 
+    text-align: center;
+}
+#banner img{
+    max-width: 30%;
+    margin-top: 2.2%;
+}
+aside{
+    width: 20%;
+    height: 500px;
+    background-color:#fff;
+    float: left; 
+}
+nav{
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+    margin-top:50%;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    color: #000;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-top: 5px;
+}
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.4s;
+}
+#social{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-top: 5px;
+}
+#social i{
+    padding: 5px;
+    color: #000;
+}
+#section_personagens{
+    width:79.5%;
+    height: 500px;
+    background-color: #fff;
+    float: right;
+}
+.article_personagens{
+    width: 22%;
+    height: 200px;
+    background-color: #f3f3f3;
+    float: left;
+    margin: 2.5% 1% 0 1%;  
+    text-align: center;
+    border-radius: 3px;
+    border: 5px solid #000;
+}
+.article_personagens img{
+    max-width: 100%;
+    border-radius: 3px; 
+}
+.article_personagens p{
+    margin-top: 5px;
+}
+.article_personagens img:hover{
+    cursor: crosshair;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+#artigo_home{
+    width:79.5%;
+    height: 500px;
+    background-color: #fff;
+    float: right;
+    text-align: center;
+}
+.artigo_home{
+    margin: 43px 60px;
+}
+#formulario{
+    width:79.5%;
+    height: 500px;
+    background-color: #fff;
+    float: right;
+}
+form{
+    width: 40%;
+    margin-top:50px;
+    float: left;
+    margin-left: 65px;
+}
+input[type=text] {
+    width:90%;
+    padding:15px;
+    margin-bottom: 10px;
+    background-color:#FFF;
+	border:2px solid #000;
+}
+textarea{
+    width:93.3%;
+	height:150px;
+    padding:8px;
+    margin-bottom: 10px;
+    background-color:#FFF;
+	border:2px solid #000;
+}
+.botao_bonito{
+    border:0;
+	padding:15px;
+    background-color:#e23636;
+	color:#FFF;
+	font-weight:bold;
+	-webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.botao_bonito:hover{
+	background-color:#000;
+	color:#fff;
+}
+#botoes{
+    text-align: center;
+}
+#mapa{
+    width: 48%;
+    float: right;
+}
+footer{
+    width:100%;
+    height: 80px;
+    background-image: url(../imgs/background.jpg);
+    background-position: center;
+    float: left;
+    margin-top: 0.5%;
+    text-align: center;
+}
+footer img{
+    max-width: 15%;
+    margin: 1.4% 0 0 37%;
+    float: left;
+}
+footer p{
+    float: right;
+    margin: 1.4% 37% 0 0;
+}

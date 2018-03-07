@@ -1,0 +1,54 @@
+#retangulo{
+    width: 1200px;
+    height: 400px;
+    background-color: #EB6B56;
+} 
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: #FFC153;
+
+    float: left;
+
+    margin-top:100px;
+    margin-left:100px;
+    margin-bottom:100px;
+    margin-right:100px;
+
+    /*margin: 100px;*/
+
+    /* border-radius: 10px; */
+}
+.circulo{
+    width: 150px;
+    height: 150px;
+    background-color: #47B39D;
+
+    border-radius: 50%;
+
+    margin: 25px
+}
+
+#esquerda{
+    width: 500px;
+    height: 400px;
+    background-color: #462446;
+
+    float: left;
+
+    margin: 70px 0 0px 83px;
+}
+#direita{
+    width: 500px;
+    height: 400px;
+    background-color: #B05F6D;
+
+    float: right;
+
+    margin: 50px 100px 0px 0px; 
+}
+
+/* LINK PARA PALETAS DE CORES 
+    http://flatcolors.net/palettes/
+*/

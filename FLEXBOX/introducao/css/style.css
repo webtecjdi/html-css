@@ -1,0 +1,45 @@
+#container {
+    display: flex;
+    width: 100%;
+    background-color: #CCEBC0;
+    /* display: block; */
+
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+
+    /* align-items: baseline; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    align-items: flex-start;
+    /* align-items: stretch; */ 
+}
+#red{
+    background-color: red;
+    width: 20%;
+    height: 200px;
+}
+#green{
+    background-color: green;
+    width: 20%;
+    height: 300px;
+}
+#blue{
+    background-color: blue;
+    width: 20%;
+    height: 200px;
+    align-self: flex-end;
+}
+#black{
+    background-color: black;
+    width: 20%;
+    height: 100px;
+    align-self: center;
+}
