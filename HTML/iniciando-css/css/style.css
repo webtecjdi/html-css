@@ -1,7 +1,13 @@
+/*QUANDO UTILIZA O * QUER DIZER QUE O SITE IRÁ FAZER TODO ELE PRIMEIRO ANTES DO RESTANTE, É UM TIPO DE RESET*/
+*{ 
+    box-sizing: border-box; /*FAZ COM QUE NÃO ALTERE O TAMANHO DA DIV QUANDO INSERIR UM PADDING*/
+    margin: 0;
+    padding: 0; 
+}
 #retangulo{
-    width: 1200px;
-    height: 400px;
-    background-color: #EB6B56;
+    width: 1200px;   /*LARGURA*/
+    height: 400px;   /*ALTURA*/
+    background-color: #65878F; /*COR DE FUNDO*/
 } 
 
 .quadrado{
@@ -9,23 +15,26 @@
     height: 200px;
     background-color: #FFC153;
 
-    float: left;
+    float: left; /*FLUTUA PARA A ESQUERDA*/
 
-    margin-top:100px;
+
+/*---------------TIPOS DE MARGINS---------------*/
+    /* margin-top:100px;
     margin-left:100px;
     margin-bottom:100px;
-    margin-right:100px;
+    margin-right:100px; */
+    margin: 100px 50px 100px 50px;
+/*---------------TIPOS DE MARGINS---------------*/
 
-    /*margin: 100px;*/
-
-    /* border-radius: 10px; */
+    border-radius: 10px; /*DEIXA OS CANTOS ARREDONDADOS*/
+    
 }
 .circulo{
     width: 150px;
     height: 150px;
     background-color: #47B39D;
 
-    border-radius: 50%;
+    border-radius: 50%; /*PODE SER UTILIZADO EM PORCENTAGEM PARA OBTER UMA MAIOR PRECISÃO*/
 
     margin: 25px
 }
@@ -37,18 +46,17 @@
 
     float: left;
 
-    margin: 70px 0 0px 83px;
-}
-#direita{
-    width: 500px;
-    height: 400px;
-    background-color: #B05F6D;
-
-    float: right;
-
-    margin: 50px 100px 0px 0px; 
+    margin: 100px 0 0 100px; 
 }
 
-/* LINK PARA PALETAS DE CORES 
+/* PEGA O ELEMENTO H1 QUE ESTÁ DENTRO DA DIV ID="ESQUERDA" */
+#esquerda h1{ 
+    color: #fff;
+    padding: 100px; /* MARGIN INTERNA DA DIV, FUNCIONA NO MESMO ESQUEMA DO MARGIN */
+}
+
+/* LINK PARA PALETAS DE CORES // hexadecimal // rgb // normal
     http://flatcolors.net/palettes/
+    http://design24horas.com/arte-e-design/rgb-e-hex-hexadecimal/
+    https://www.w3schools.com/colors/default.asp
 */
