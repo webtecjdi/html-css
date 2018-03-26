@@ -17,7 +17,6 @@ input[type=text] {
     width:30%;
     padding:12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
     background-color:#FFF;
     border:3px solid #69696969;
     -webkit-transition: 0.5s;
@@ -39,7 +38,6 @@ input[type=date], input[type=password], input[type=email] {
     width:15%;
     padding:12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
     background-color:#FFF;
     border:3px solid #69696969;
     -webkit-transition: 0.5s;
