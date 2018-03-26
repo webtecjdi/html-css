@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Formulário básico</title>
+    <link href="CSS/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <form action="formulario.php" method="POST">
 
-        <label for="nome"> Nome: </label>
-            <input type="text" id="nome"></br></br>
+    <div>
+        <form action="formulario.php" method="POST">
 
-        <label for="homem">Homem</label>
-            <input type="radio" name="genero" id="homem" value="homem">
-        <label for="mulher">Mulher</label>
-            <input type="radio" name="genero" id="mulher" value="mulher"></br></br>
+            <P>
+                <label for="nome"> Nome: </label>
+                <input type="text" id="nome" placeholder="Nome Completo" maxlength="10" />
+            </P>
 
-        <label for="cores">Cores</label>
-            <input type="color" id="cores"></br></br>
-        
-        <label for="data">Data</label>
-            <input type="date" id="data"></br></br>
-        
-        <label for="senha">Senha</label>
-            <input type="password" id="senha"></br></br>
-        
-        <label for="bruna">Bruna Marquezine</label>
-            <input type="checkbox" id="selecao" name="selecao" value="Bruna Marquezine">
-        <label for="marina">Marina Ruy Barbosa</label>
-            <input type="checkbox" id="selecao" name="selecao" value="Marina Ruy Barbosa"></br></br>
-        
-        <input type="submit" value="ENVIAR">
-        <input type="reset" value="APAGAR">
+            <p>
+                <label for="data">Data:</label>
+                <input type="date" id="data" />
+            </p>
 
-    </form>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email@Email.com"/>
+            </p>
+
+            <p>
+                <label for="senha">Senha:</label>   
+                <input type="password" id="senha" placeholder="8 Caracteres" maxlength="8"/>
+            </p>
+
+            <P>
+                <input type="radio" name="genero" id="homem" checked/>
+                <label for="homem"> Homem</label>
+
+                <input type="radio" name="genero" id="mulher" />
+                <label for="mulher"> Mulher</label>
+            </P>
+
+            <p>
+                <label for="cores">Cores:</label>
+                <input type="color" id="cores" />
+            </p>
+
+            <p>
+                <input type="checkbox" id="bruna" name="selecao" />
+                <label for="bruna">Bruna Marquezine</label>
+
+                <input type="checkbox" id="marina" name="selecao" />
+                <label for="marina">Marina Ruy Barbosa</label>
+            </p>
+
+            <p>
+                <input type="submit" class="bt" value="ENVIAR" />
+                <input type="reset" class="bt" value="APAGAR" />
+            </p>
+
+        </form>
+    </div>
+
 </body>
+
 </html>
