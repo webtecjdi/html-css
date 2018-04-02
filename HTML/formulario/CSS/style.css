@@ -1,0 +1,111 @@
+/*
+
+.bt{
+    background-color:green;
+    color:#fff;
+    width: 75px;
+    height: 25px;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+*/
+
+
+/*
+input[type=text] {
+    width:30%;
+    padding:12px 20px;
+    margin: 8px;
+    background-color:#FFF;
+    border:3px solid #69696969;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+input[type=text]:hover {
+    border: 3px solid #555;
+}
+*/
+
+
+/*
+input[type=date], input[type=password], input[type=email] {
+    width:15%;
+    padding:12px 20px;
+    margin: 8px 0;
+    background-color:#FFF;
+    border:3px solid #69696969;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=date]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:hover, input[type=password]:hover, input[type=email]:hover {
+    border: 3px solid #555;
+}
+*/
+
+
+/*
+input[type=color]{
+    background-color: #fff;
+    border-radius: 5px;
+}
+*/
+
+
+/*
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox] + label:before {
+    background-color: white;
+    border: 1px solid #ccc;
+    content: "";
+    display: inline-block;
+    font-size: 12px;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    margin: -2px 6px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+input[type=checkbox]:checked + label:before {
+    content: "\2713";
+}
+*/
+
+
+/*
+input[type="radio"]{
+    display: none;
+}
+
+input[type=radio] + label:before{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    content:"";
+    display: inline-block;
+    font-size: 26px;
+    height: 12px;
+    width: 12px;
+    line-height: 13px;
+    margin: -2 6px 0 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input[type=radio]:checked + label:before{
+    content: "\2022";
+}
+*/
