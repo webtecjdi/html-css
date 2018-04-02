@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #ffd33d;
+}
+
+#banner {
+    width: 100%;
+    height: 550px;
+    background: #0080ff;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    float: left;
+    background: #0080ff;
+    margin-top: 0.5%;
+}

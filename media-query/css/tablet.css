@@ -1,0 +1,12 @@
+@media screen and (min-width:768px) {
+    .box {
+        width: 48.5%;
+        height: 220px;
+        float: left;
+        background: #ffd33d;
+        margin: 1% 0 0 1%;
+    }
+    footer {
+        margin-top: 1%;
+    }
+}
